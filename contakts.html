@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacts</title>
+        <style>
+            .field{
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Contakts Me</h3>
+        <form action="contact.php" method="GET">
+        <div class="field">
+            <label for="fristname">Frist Name</label>
+            <input type="text" name="fristname" id="fristname">
+        </div>
+        <div class="field">
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname">
+        </div>
+        <div class="field">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="field">
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message" rows="10"></textarea>
+        </div>
+        <button type="submit">Serverga junatish</button>
+        </form>
+    </body>
+    </html>
